@@ -1,16 +1,31 @@
-/*  your css code here. If applicable */
-body{
+body {
     background-color: #f5f5f5;
     margin: 0 30px;
 }
-.content{
+
+.content {
     padding: 15px;
     background-color: white;
-    border: 10px solid #f5f5f5; 
+    border: 10px solid #f5f5f5;
     position: relative;
 }
-i{
+
+p {
+    position: relative;
+    text-align: right; /* Add this line to set text-align to right */
+}
+
+p:after {
+    content: "";
+    display: block;
+}
+
+p:last-child:after {
+    content: none;
+}
+
+i {
     position: absolute;
     right: 20px;
-    bottom:12px
+    bottom: 12px;
 }
