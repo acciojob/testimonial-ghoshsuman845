@@ -24,6 +24,9 @@ p:last-child:after {
     content: none;
 }
 
+.testimonial-author{
+	font-style:italic;
+}
 i {
     position: absolute;
     right: 20px;
